@@ -8,10 +8,12 @@ describe('meta', () => {
             expect(prefixBytes).toBeBytes([66, 152, 252, 28]);
         });
 
-        it('gets disfix for `"auth/StdTx"`', () => {
-            const [disambBytes, prefixBytes] = Amino.nameToDisfix('auth/StdTx');
-            expect(disambBytes).toBeBytes([142, 254, 71]);
-            expect(prefixBytes).toBeBytes([240, 98, 93, 238]);
+        it('gets disfix for `"irishub/bank/StdTx"`', () => {
+          const [disambBytes, prefixBytes] = Amino.nameToDisfix(
+            "irishub/bank/StdTx"
+          );
+          expect(disambBytes).toBeBytes([168, 95, 235]);
+          expect(prefixBytes).toBeBytes([217, 30, 118, 176]);
         });
     });
 

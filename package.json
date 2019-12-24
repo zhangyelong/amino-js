@@ -1,5 +1,5 @@
 {
-    "name":            "@tendermint/amino-js",
+    "name":            "@irisnet/amino-js",
     "description":     "tendermint/go-amino for JavaScript",
     "license":         "Apache-2.0",
     "repository":      {
