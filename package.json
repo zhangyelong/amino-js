@@ -14,7 +14,7 @@
     "types":           "index.d.ts",
     "scripts":         {
         "build":     "webpack --config build --progress --colors --display-error-details",
-        "clean":     "rm -rf ./dist/*",
+        "clean":     "rm -rf ./dist",
         "dirs":      "mkdir ./dist",
         "dist:dev":  "yarn clean && yarn go && NODE_ENV=development yarn build",
         "dist:prod": "yarn clean && yarn go:min && NODE_ENV=production yarn build && yarn gzip",
