@@ -53,7 +53,7 @@ const tx = {
           value: "A4IEXMxyBa8QTSyjNii3uxGhnALvBWsKeP2nMcYFd6KE"
         },
         signature:
-          "EZzvRytBfsqzlULdF74+eOfgli2dCKQOTTJaA0CNPK0BpPfLQ6glOntpoRLw6k+4Btsp2teNUK+ylRlCigCB4Q==",
+        "EZzvRytBfsqzlULdF74+eOfgli2dCKQOTTJaA0CNPK0BpPfLQ6glOntpoRLw6k+4Btsp2teNUK+ylRlCigCB4Q==",
         account_number: "4",
         sequence: "133"
       }
