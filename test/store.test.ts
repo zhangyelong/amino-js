@@ -48,13 +48,13 @@ const tx = {
         },
         signatures: [
             {
-                pub_key: {
+                'pub_key': {
                     type: "tendermint/PubKeySecp256k1",
                     value: "A4IEXMxyBa8QTSyjNii3uxGhnALvBWsKeP2nMcYFd6KE"
                 },
                 signature:
         "EZzvRytBfsqzlULdF74+eOfgli2dCKQOTTJaA0CNPK0BpPfLQ6glOntpoRLw6k+4Btsp2teNUK+ylRlCigCB4Q==",
-                account_number: "4",
+                'account_number': "4",
                 sequence: "133"
             }
         ],
